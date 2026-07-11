@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swagata Pal | Portfolio</title>
+  <meta name="description" content="Swagata Pal's personal portfolio showcasing web development, UI/UX design, projects, and contact details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Swagata Pal portfolio home">
+      <span class="brand-mark">SP</span>
+      <span class="brand-text">
+        <strong>Swagata Pal</strong>
+        <small>Digital portfolio</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="github-link" href="https://github.com/Swagata2004" target="_blank" rel="noreferrer noopener">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+      <a class="github-link resume-link" href="assets/Swagata-Pal-Resume.pdf" target="_blank" rel="noreferrer noopener" download="Swagata-Pal-Resume.pdf">
+        <i class="fa-solid fa-file-arrow-down"></i>
+        Resume
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Full-stack web Developer and UI/UX Designer</p>
+        <h1>Swagata Pal</h1>
+        <p class="hero-text">
+          I design and build clean, responsive digital experiences with a focus on usability, visual clarity, and smooth interactions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <article>
+            <strong>3+</strong>
+            <span>Project concepts</span>
+          </article>
+          <article>
+            <strong>10+</strong>
+            <span>Technical skills</span>
+          </article>
+          <article>
+            <strong>UI + Code</strong>
+            <span>Design-led development</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Swagata Pal" />
+        </div>
+        <div class="hero-badge">
+          <i class="fa-solid fa-sparkles"></i>
+          Available for freelance and collaboration
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Web development with a designer's mindset.</h2>
+      </div>
+      <div class="about-card reveal">
+        <p>
+          I am Swagata Pal, a full-stack web developer and UI/UX designer who enjoys turning ideas into polished, practical interfaces.
+        </p>
+        <p>
+          My interests sit at the intersection of frontend engineering, product design, and motion-driven storytelling, with a strong focus on creating experiences that feel modern, intuitive, and memorable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical skills and creative tools I use.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal"><i class="fa-solid fa-layer-group"></i><span>Full-stack web Development</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-pen-nib"></i><span>UI/UX Design</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-palette"></i><span>Graphic Design</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Framer Motion</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-bolt"></i><span>GSAP</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-code"></i><span>C</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-code-branch"></i><span>C++</span></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-python"></i><span>Python</span></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-java"></i><span>Java</span></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-js"></i><span>JavaScript</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-database"></i><span>SQL</span></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-leaf"></i><span>MongoDB</span></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Scrollable project highlights.</h2>
+      </div>
+
+      <div class="projects-toolbar reveal">
+        <p>Use the arrows or click a project to move through the showcase one card at a time.</p>
+        <div class="project-controls">
+          <button class="control-btn" type="button" id="prevProject" aria-label="Previous project">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="control-btn" type="button" id="nextProject" aria-label="Next project">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="project-rail" id="projectRail">
+        <article class="project-card reveal" data-project>
+          <div class="project-media">
+            <img src="assets/project-gamepad.png" alt="Gaming console UI concept with bold red and purple accents" />
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Product UI</span>
+            <h3>DualSense Gaming Console Concept</h3>
+            <p>A dramatic landing page concept that combines high-energy visuals, layered depth, and product storytelling for a premium gaming feel.</p>
+            <button class="btn btn-primary project-btn" type="button">View Project</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-project>
+          <div class="project-media">
+            <img src="assets/project-airmax.png" alt="Air Max sneaker landing page concept" />
+          </div>
+          <div class="project-content">
+            <span class="project-tag">E-commerce UI</span>
+            <h3>Air Max Sneaker Showcase</h3>
+            <p>A fashion-forward product hero built to spotlight a sneaker with bold typography, strong contrast, and a stylish commercial layout.</p>
+            <button class="btn btn-primary project-btn" type="button">View Project</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-project>
+          <div class="project-media">
+            <img src="assets/project-education.png" alt="Educational UI concept with colorful modular layout" />
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Education Platform</span>
+            <h3>Design School Learning UI</h3>
+            <p>An educational interface concept with playful shapes, clear hierarchy, and a clean structure for class discovery and learning content.</p>
+            <button class="btn btn-primary project-btn" type="button">View Project</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect and build something useful.</h2>
+      </div>
+
+      <div class="contact-card reveal">
+        <div class="contact-item">
+          <span>Name</span>
+          <strong>Swagata Pal</strong>
+        </div>
+        <div class="contact-item">
+          <span>Email</span>
+          <a href="mailto:swagata11042004@gmail.com">swagata11042004@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span>Phone</span>
+          <a href="tel:+918167717099">+91 8167717099</a>
+        </div>
+        <div class="contact-item">
+          <span>Links</span>
+          <div class="contact-links">
+            <a href="https://github.com/Swagata2004" target="_blank" rel="noreferrer noopener" aria-label="GitHub profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

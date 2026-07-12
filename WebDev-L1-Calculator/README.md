@@ -43,3 +43,5 @@ This project consists entirely of static files. To run it:
 | Calculate (=)    | `Enter` or `=`       |
 | Clear (ON/C)     | `Escape`, `Delete`, `Backspace` |
 | Percentage       | `%`                  |
+## Live Host 
+- Open at: https://basic-calculator-three-rust.vercel.app/

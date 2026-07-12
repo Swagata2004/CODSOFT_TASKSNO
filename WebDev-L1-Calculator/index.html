@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional, modern, and responsive basic calculator with theming and keyboard support.">
+    <title>Basic Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="theme-switcher">
+            <button id="theme-blue" class="theme-btn active" data-theme="blue" title="Blue Theme (Default)"></button>
+            <button id="theme-dark" class="theme-btn" data-theme="dark" title="Dark Theme"></button>
+            <button id="theme-light" class="theme-btn" data-theme="light" title="Light Theme"></button>
+        </div>
+        
+        <div class="calculator-wrapper">
+            <div class="calculator">
+                <div class="top-section">
+                    <div class="brand">
+                        <span class="brand-name">BL 206</span>
+                        <span class="sub-brand">ELECTRONIC CALCULATOR</span>
+                    </div>
+                    <div class="digits-label">
+                        <span class="digit-number">8</span>
+                        <span class="digit-text">digits</span>
+                    </div>
+                </div>
+                
+                <div class="screen-container">
+                    <div id="display" class="display">0.</div>
+                </div>
+                
+                <div class="solar-panel-container">
+                    <div class="solar-panel">
+                        <div class="cell"></div>
+                        <div class="cell"></div>
+                        <div class="cell"></div>
+                        <div class="cell"></div>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <!-- Row 1 -->
+                    <button class="btn fn outline" data-action="clear">ON/C</button>
+                    <button class="btn fn outline" data-action="mrc">MRC</button>
+                    <button class="btn fn outline" data-action="m-minus">M-</button>
+                    <button class="btn fn outline" data-action="m-plus">M+</button>
+                    
+                    <!-- Row 2 -->
+                    <button class="btn fn outline" data-action="off">OFF</button>
+                    <button class="btn fn outline" data-action="sqrt">√</button>
+                    <button class="btn fn outline" data-action="percent">%</button>
+                    <button class="btn op outline" data-action="divide">÷</button>
+                    
+                    <!-- Row 3 -->
+                    <button class="btn num" data-value="7">7</button>
+                    <button class="btn num" data-value="8">8</button>
+                    <button class="btn num" data-value="9">9</button>
+                    <button class="btn op" data-action="multiply">×</button>
+                    
+                    <!-- Row 4 -->
+                    <button class="btn num" data-value="4">4</button>
+                    <button class="btn num" data-value="5">5</button>
+                    <button class="btn num" data-value="6">6</button>
+                    <button class="btn op" data-action="subtract">−</button>
+                    
+                    <!-- Row 5 & 6 -->
+                    <button class="btn num" data-value="1">1</button>
+                    <button class="btn num" data-value="2">2</button>
+                    <button class="btn num" data-value="3">3</button>
+                    <button class="btn op tall" data-action="add">+</button>
+                    
+                    <button class="btn num" data-value="0">0</button>
+                    <button class="btn num" data-value=".">.</button>
+                    <button class="btn op" data-action="calculate">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

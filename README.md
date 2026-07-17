@@ -2,8 +2,8 @@
 CODSOFT_TASKSNO - CodSoft Internship Projects
 A collection of web development projects completed as part of the CodSoft Internship Program Level 1. This repository contains three independent projects built using HTML, CSS, and JavaScript, demonstrating core front-end development competencies.
 
-📁 Repository Structure
- copy
+📁 Repository Structure:
+
 CODSOFT_TASKSNO/
 │
 ├── WebDev-L1-Portfolio/
@@ -27,7 +27,7 @@ CODSOFT_TASKSNO/
 │   └── README.md
 │
 └── README.md
- copy
+ 
 🚀 Projects Overview
 1. My Digital Portfolio
 Folder: WebDev-L1-Portfolio
@@ -93,13 +93,11 @@ Tech Stack: HTML5, CSS3, JavaScript (Vanilla)
 🛠️ How to Run Locally
 Clone the repository:
 
- copy
 bash
 
 git clone https://github.com/Swagata2004/CODSOFT_TASKSNO.git
 Navigate to the desired project folder:
 
- copy
 bash
 
 cd CODSOFT_TASKSNO/WebDev-L1-Portfolio

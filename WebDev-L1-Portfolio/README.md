@@ -73,7 +73,7 @@ This is a static website, so it can be deployed easily on:
 - Netlify
 - Vercel
 - Any static hosting service
-
+- Open at: https://personal-portfolio-two-orpin-73.vercel.app/
 ### GitHub Pages
 
 1. Push the repository to GitHub.

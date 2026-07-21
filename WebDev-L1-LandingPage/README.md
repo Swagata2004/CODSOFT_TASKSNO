@@ -94,7 +94,7 @@ If you want a more reliable preview, run a simple local server:
 - **VS Code Live Server**
 - **Python HTTP server**
 - **Any static hosting preview**
-
+- Open at:  https://landing-page-git-main-own8.vercel.app/ 
 Example using Python:
 
 ```bash
